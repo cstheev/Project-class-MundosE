@@ -1,0 +1,39 @@
+.services{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.block{
+    width: 32px;
+    height: 384px;
+    background: $orange;
+    margin-top: 144px;
+    margin-bottom: 144px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 299px ;
+}
+
+.h2-services{
+    font-family: 'Poppins', sans-serif;
+    color: $gray;
+    font-size: 39px;
+    line-height: 45px;
+
+    span{
+        color: $orange;
+    }
+}
+
+.p-services{
+    margin-top: 50px;
+    line-height: 25px;
+    width: 768px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
